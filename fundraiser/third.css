@@ -1,0 +1,169 @@
+.header {
+    background-color: #000000; /* Change the background color as needed */
+    color: #fff; /* Change the text color as needed */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+/* Style for the FUNDO logo */
+.logo {
+    font-size: 40px;
+    font-family:'Gabarito', cursive;
+}
+.button-group {
+    display: flex;
+    gap: 10px;
+}
+
+.previous-button,
+.next-button {
+    
+    font-family:'Gabarito', cursive;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+    transition: background-color 0.3s;border-radius :15px;
+    outline:0;
+    border:none;
+    background: rgb(23, 215, 177);
+    color:black;
+    font-weight:500;
+    cursor:pointer;
+    transition :background-color 0.5s ;
+}
+
+.previous-button:hover,
+.next-button:hover {
+    background-color: #000000; 
+    color :rgb(23, 215, 177);
+}
+
+body, h1, h2, p, ul, li, label {
+    margin: 0;
+    padding: 0;
+}
+
+/* Styling for the container */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image:linear-gradient(rgba(0,0,0,0.70),rgba(0,0,0,0.70)),url( top-view-of-coins-and-wooden-tag-written-with-fundraising.webp);
+    background-size:cover;
+    background-position : center;
+
+}
+/* Reset default margin and padding */
+body, h1, h2, p, ul, li, label, input, textarea {
+    margin: 0;
+    padding: 0;
+}
+
+/* Styling for the container */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+
+}
+
+/* Styling for the page title */
+.page-title {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #fdfdfd;
+    font-family:'Gabarito', cursive;
+}
+
+/* Styling for the input group */
+
+
+/* Styling for the box */
+.box {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    font-family:'Gabarito', cursive;
+}
+
+/* Styling for the box title */
+.box-title {
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #000000;
+}
+
+/* Styling for the form */
+#elaborateForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family:'Gabarito', cursive;
+}
+
+/* Styling for the input fields */
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    font-family:'Gabarito', cursive;
+}
+
+/* Styling for the photo upload */
+.upload {
+    text-align: center;
+    margin: 10px 0;
+}
+
+/* Styling for the file input */
+#photoInput {
+    display: none;
+}
+
+.upload label {
+    background-color: #000000;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.upload label:hover {
+    background-color: #0056b3;
+}
+
+/* Styling for the Proceed button */
+#proceed-btn {
+    background-color: #000000;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px 0;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+    transition: background-color 0.3s;
+    font-family:'Gabarito', cursive;
+}
+
+#proceed-btn:hover {
+    background-color:rgb(23, 215, 177); 
+    color:black;
+}
