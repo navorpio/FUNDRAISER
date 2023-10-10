@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="second.css">
+    <title>second step</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Gabarito:wght@600&family=Oswald:wght@500&display=swap" rel="stylesheet">
+    <title>start a fundraiser</title>
+</head>
+<body>
+    <header class="header">
+        <div class="logo">FUNDO</div>
+        <div class="button-group">
+            <button id="prev-btn" class="previous-button">Previous</button>
+            <button id="next-btn" class="next-button">Next</button>
+        </div>
+    </header>
+    
+    <div class="container">
+        
+        <div class="input-group">
+            <label for="benefitInput">This fundraiser will benefit</label>
+            <input type="text" id="benefitInput" class="relation"  placeholder="Enter beneficiary's relation">
+        </div>
+
+        <div class="box">
+            <h2 class="box-title">Beneficiary's Information</h2>
+            <form id="beneficiaryForm">
+                <input type="text" id="name" placeholder="Beneficiary's Name">
+                <input type="number" id="age" placeholder="Age">
+                <select id="sex">
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="other">Other</option>
+                </select>
+                <input type="text" id="residency" placeholder="Residency">
+                <button id="proceed-btn">Proceed</button>
+            </form>
+        </div>
+    </div>
+    <script src="second.js"></script>
+</body>
+</html>
